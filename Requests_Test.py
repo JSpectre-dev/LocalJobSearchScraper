@@ -8,6 +8,8 @@ search_query = "Boise Idaho Software Companies"
 # Base URL for Google Search (use with caution due to scraping limitations)
 google_url = f"https://www.google.com/search?q={search_query.replace(' ', '+')}"
 
+
+
 # Headers to mimic a browser (avoid getting blocked)
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win6S4; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
